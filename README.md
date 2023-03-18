@@ -28,3 +28,7 @@ Neprijatelji (Enemies)
 Grafiku igre sam radio u samom Gamemakeru-u I u Photoshopu.
 Zvučni efekti 
 Zvučne efekte sam pravio u programu Fruity Loops Studio 12 i dorađivao ih u Audacity-u.
+
+https://user-images.githubusercontent.com/71758728/226129812-b28b476d-a2a9-4a5c-b7ce-68bec97e18bf.mp4
+
+
