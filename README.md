@@ -1,33 +1,14 @@
 # space_shooter_gamemaker
 
-Cilj ove igre je da igrač uništi 3 glavna neprijateljska svemirska broda koja se pojavljuju na poslednjem nivou. Do tada, igrač mora da pazi i da uništava nadolazeće bombe, male brodove, satelite. 
+The goal of this game is for the player to destroy the 3 main enemy spaceships that appear in the last level. Until then, the player must watch out and destroy incoming bombs, small ships, satellites.
 
-Na prvom nivou, igrač se susreće sa neprijateljima (u ovom slučaju bombama) i uslov da pređe na sledeći nivo je pre svega da ne bude dodirnut, ili upucan od strane istih, jer je tada igrač izgubio. Ukoliko bombe odu izvan opsega mape, bombe bivaju uništene. (to važi za svaki nivo).
-Na drugom nivou se, pored bombi, pojavljuju i mali brodovi koji nasumično pucaju u smeru kretanja. Uslov za prelazak na sledeći nivo je isti za svaki nivo. 
-Na trećem nivou pojavljuju se rotirajuci sateliti koji ciljaju igrača. Oni se kreću nasumično gore, dole, levo, desno i njihovo ponašanje je nepredvidivo. 
-Četvrti nivo je finalni nivo, u njemu se pojavljaju, uz sve prošle navedene neprijatelje, 3 velika svemirska broda, koji pucaju nasumično u smeru kretanja bombi i brodova i pucaju igrača, krećući se gore-dole. 
+At the first level, the player encounters enemies (in this case bombs) and the condition to pass to the next level is first of all not to be touched, or shot by them, because then the player loses. If the bombs go outside the map range, the bombs are destroyed. (this applies to every level). On the second level, in addition to bombs, small ships appear that shoot randomly in the direction of movement. The condition for moving to the next level is the same for each level. On the third level, rotating satellites appear that target the player. They move randomly up, down, left, right and their behavior is unpredictable. The fourth level is the final level, in it appear, along with all the enemies mentioned above, 3 large spaceships, which shoot randomly in the direction of the bombs and ships and shoot the player, moving up and down.
 
-Korišćenjem već standardnih slova za kontrolu (W, A, S, D), igrač upravlja avionom. Lasere ispaljuje na slovo P.
-Igrač igru počinje sa 100 životnih poena (HP). Kolizijom sa bilo kojim neprijateljem, igrač je izgubio I mora da krene igru ispočetka.
-Igrač neograničeno ispaljuje zelene lasere koji skidaju 10 životnih poena koga god da pogode.
-Uništenjem neprijatelja, igrač sakuplja poene:
-•	Bomba – 50 poena;
-•	Mali Brod – 100 poena;
-•	Rotirajući Satelit – 150 poena;
-•	Veliki Brod – 2000 poena.
-Od trećeg nivoa, javlja se prva pomoc, kojom kada je pokupi, igrač vraća sebi 20 životnih poena.
-Crveni laser igraču skida 20 HP i 20 poena i ispaljuju ga mali brod I veliki svemirski brod.
-Žute bombice ispaljuju rotirajuci satelit i veliki brod i svakim pogotkom skida igraču 10 HP i 20 poena. 
+Using standard control (W, A, S, D), the player controls the plane. Lasers are fired with a letter P. The player starts the game with 100 health points (HP). By colliding with any enemy, the player loses and must start the game from the beginning. The player fires unlimited green lasers that take away 10 health from whoever they hit. By destroying the enemy, the player collects points: • Bomb – 50 points; • Small Ship – 100 points; • Satellite – 150 points; • Big Ship – 2000 points. From the third level, the first aid appears, which, when picked up, gives the player back 20 life points. The red laser takes 20 HP and 20 points off the player and is fired by a small ship and a large spaceship. Satellite and a large ship fire a yellow bomb, and each hit takes away 10 HP and 20 points from the player.
 
-Neprijatelji (Enemies)
-•	Bomba – 40HP – Kreće se ka igraču – Ne ispaljuje ništa;
-•	Mali Brod – 20HP – Kreće se ka igraču – Ispaljuje crvene lasere;
-•	Rotirajući Satelit – 100HP – Nasumično se kreče u svim pravcima – Ispaljuje  žute bombice;
-•	Veliki Brod – 500HP – Kreće se po vertikali velikom brzinom – Ispaljuje crvene lasere i žute bombice velikom brzinom.
+Enemies • Bomb – 40HP – Moves towards the player – Does not fire anything; • Small Ship – 20HP – Moves towards the player – Fires red lasers; • Rotating Satellite - 100HP - Randomly moves in all directions - Fires yellow bombs; • Large Ship – 500HP – Moves vertically at high speed – Fires red lasers and yellow bombs at high speed.
 
-Grafiku igre sam radio u samom Gamemakeru-u I u Photoshopu.
-Zvučni efekti 
-Zvučne efekte sam pravio u programu Fruity Loops Studio 12 i dorađivao ih u Audacity-u.
+I made the graphics of the game in Gamemaker itself and in Photoshop as well. Sound effects are created with Fruity Loops Studio 12 and Audacity.
 
 https://user-images.githubusercontent.com/71758728/226129812-b28b476d-a2a9-4a5c-b7ce-68bec97e18bf.mp4
 
